@@ -1,4 +1,4 @@
-Descrição
+<h1>Descrição</h1>
 Este projeto foi desenvolvido como parte de um desafio técnico, com o objetivo de automatizar a coleta e processamento de dados do Rol de Procedimentos em Saúde da ANS. Ele realiza:
 
 Web Scraping para baixar arquivos PDF
@@ -7,7 +7,7 @@ Processamento de dados para extrair e estruturar tabelas
 
 Geração de arquivos prontos para análise
 
-🛠️ Funcionalidades
+<h1>🛠️ Funcionalidades</h1>
 1. Web Scraping
 Acessa o site da ANS e localiza os links dos Anexos I e II
 
@@ -24,7 +24,7 @@ Substitui abreviações (OD → Odontológico, AMB → Ambulatorial)
 
 Salva os dados em CSV e compacta em um arquivo ZIP
 
-⚙️ Como Executar
+<h1>⚙️ Como Executar</h1>
 Pré-requisitos
 Instale as bibliotecas
 pip install requests beautifulsoup4 pandas pdfplumber
@@ -39,7 +39,7 @@ Downloads_NS/Anexos.zip (PDFs baixados)
 Transformaçao_de_dados/Teste_Guilherme.zip (dados processados)
 
 
-Observações
+<h1>Observações</h1>
 O projeto foi desenvolvido com Python 3
 
 Bibliotecas principais: requests, BeautifulSoup, pandas, pdfplumber
