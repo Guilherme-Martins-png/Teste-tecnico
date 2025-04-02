@@ -4,9 +4,9 @@ import zipfile
 import os
 
 def extrair_e_formatar_tabela(caminho_pdf, seu_nome):
-    """
-    Função principal para extrair, formatar e salvar a tabela de procedimentos
-    """
+    
+    #Função principal para extrair, formatar e salvar a tabela de procedimentos
+    
     try:
         # 1. Extrair os dados brutos do PDF
         dados_brutos = extrair_dados_pdf("Downloads_NS\Anexo_I.pdf")
